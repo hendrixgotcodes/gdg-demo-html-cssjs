@@ -1,0 +1,20 @@
+.form{
+    width: 80%;
+    padding: 2rem 1rem;
+    box-shadow: -1px 3px 6px var(--black--200);
+}
+
+.form_header{
+    color: var(--black--500);
+    font-size: 1.5rem;
+}
+
+.form_img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.form_btn{
+    margin-top: 1rem;
+}

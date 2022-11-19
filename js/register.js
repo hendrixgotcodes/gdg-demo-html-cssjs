@@ -11,7 +11,7 @@ function validateForm(){
 form.addEventListener("submit", (e)=>{
     e.preventDefault()
 
-    if(!validateForm()){
+    if(validateForm() === false){
         alert("Form validation failed")
         return;
     }
